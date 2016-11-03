@@ -1,0 +1,12 @@
+#!/bin/bash
+#
+# ---- SETTINGS -------
+# Edit or remove these to suit your setup.
+#
+
+export CMAKE_PATH=`which cmake`
+export NDK_PATH=$HOME/Applications/android-ndk-r10e
+export EMSDK_PATH=$HOME/Applications/emsdk-1.25
+export JAVA_HOME=`/usr/libexec/java_home`
+export DOXYGEN_PATH=`which doxygen`
+export DOT_PATH=
