@@ -11,7 +11,7 @@
        --           moai-android-google-play-services, moai-android-google-push, moai-android-tapjoy,
        --           moai-android-twitter, moai-android-vungle
        Modules = {
-          "moai-android-twitter"
+          
        },
        -- Facebook app ID for use with moai-android-facebook
        FBAppId = 0,
