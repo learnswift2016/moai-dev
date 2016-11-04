@@ -2,7 +2,7 @@ cmake_minimum_required ( VERSION 2.8.11 )
 project ( moai-ios-tapjoy )
 
 #native
-set(TAPJOY_ROOT ${MOAI_ROOT}/3rdparty/TapjoySDK_iOS_v10.0.2/Libraries/Tapjoy.embeddedframework/Tapjoy.framework)
+set(TAPJOY_ROOT ${MOAI_ROOT}/3rdparty/TapjoySDK_iOS_v11.8.2/Libraries/Tapjoy.embeddedframework/Tapjoy.framework)
 set(TAPJOY_LIB ${TAPJOY_ROOT}/Tapjoy)
 
 add_library(Tapjoy STATIC IMPORTED)
