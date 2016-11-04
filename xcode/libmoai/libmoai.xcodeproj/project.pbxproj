@@ -25749,6 +25749,15 @@
 		CDA4B9821808AC9D000129F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"../../3rdparty/facebook-ios-sdk-4.5.1",
+					../../3rdparty/TapjoySDK_iOS_v11.8.2/Libraries/Tapjoy.embeddedframework,
+					"../../3rdparty/vungle-2.0.1/vunglepub.embeddedframework",
+					"../../3rdparty/MobileAppTracking-ios-2.6/sdk-ios",
+					../../3rdparty/kontagent_ios_v1.5.6,
+					"../../3rdparty/adcolony-2.2.4",
+				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					USE_ARES,
 					USE_OPENSSL,
@@ -25785,6 +25794,15 @@
 		CDA4B9831808AC9D000129F9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"../../3rdparty/facebook-ios-sdk-4.5.1",
+					../../3rdparty/TapjoySDK_iOS_v11.8.2/Libraries/Tapjoy.embeddedframework,
+					"../../3rdparty/vungle-2.0.1/vunglepub.embeddedframework",
+					"../../3rdparty/MobileAppTracking-ios-2.6/sdk-ios",
+					../../3rdparty/kontagent_ios_v1.5.6,
+					"../../3rdparty/adcolony-2.2.4",
+				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					NDEBUG,
 					USE_ARES,
@@ -25816,6 +25834,15 @@
 		CDA4B9841808AC9D000129F9 /* AdHoc */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"../../3rdparty/facebook-ios-sdk-4.5.1",
+					../../3rdparty/TapjoySDK_iOS_v11.8.2/Libraries/Tapjoy.embeddedframework,
+					"../../3rdparty/vungle-2.0.1/vunglepub.embeddedframework",
+					"../../3rdparty/MobileAppTracking-ios-2.6/sdk-ios",
+					../../3rdparty/kontagent_ios_v1.5.6,
+					"../../3rdparty/adcolony-2.2.4",
+				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					NDEBUG,
 					USE_ARES,
@@ -25847,6 +25874,15 @@
 		CDA4B9851808AC9D000129F9 /* Distribution */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"../../3rdparty/facebook-ios-sdk-4.5.1",
+					../../3rdparty/TapjoySDK_iOS_v11.8.2/Libraries/Tapjoy.embeddedframework,
+					"../../3rdparty/vungle-2.0.1/vunglepub.embeddedframework",
+					"../../3rdparty/MobileAppTracking-ios-2.6/sdk-ios",
+					../../3rdparty/kontagent_ios_v1.5.6,
+					"../../3rdparty/adcolony-2.2.4",
+				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					NDEBUG,
 					USE_ARES,

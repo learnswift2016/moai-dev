@@ -1582,6 +1582,13 @@
 				CXX = "$(SRCROOT)/../ccache-clang++";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"../../3rdparty/MobileAppTracking-ios-2.6/sdk-ios",
+					"../../3rdparty/facebook-ios-sdk-3.14.1",
+					../../3rdparty/TapjoySDK_iOS_v11.8.2/Libraries/Tapjoy.embeddedframework,
+					"../../3rdparty/vungle-2.0.1/vunglepub.embeddedframework",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_CFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.moaisdk.samples;
@@ -1600,6 +1607,13 @@
 				CXX = "$(SRCROOT)/../ccache-clang++";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"../../3rdparty/MobileAppTracking-ios-2.6/sdk-ios",
+					"../../3rdparty/facebook-ios-sdk-3.14.1",
+					../../3rdparty/TapjoySDK_iOS_v11.8.2/Libraries/Tapjoy.embeddedframework,
+					"../../3rdparty/vungle-2.0.1/vunglepub.embeddedframework",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_CFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.moaisdk.samples;
@@ -1630,7 +1644,7 @@
 					"$(inherited)",
 					"../../3rdparty/MobileAppTracking-ios-2.6/sdk-ios",
 					"../../3rdparty/facebook-ios-sdk-3.14.1",
-					../../3rdparty/TapjoySDK_iOS_v10.0.2/Libraries/Tapjoy.embeddedframework,
+					../../3rdparty/TapjoySDK_iOS_v11.8.2/Libraries/Tapjoy.embeddedframework,
 					"../../3rdparty/vungle-2.0.1/vunglepub.embeddedframework",
 				);
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -1728,7 +1742,7 @@
 					"$(inherited)",
 					"../../3rdparty/MobileAppTracking-ios-2.6/sdk-ios",
 					"../../3rdparty/facebook-ios-sdk-3.14.1",
-					../../3rdparty/TapjoySDK_iOS_v10.0.2/Libraries/Tapjoy.embeddedframework,
+					../../3rdparty/TapjoySDK_iOS_v11.8.2/Libraries/Tapjoy.embeddedframework,
 					"../../3rdparty/vungle-2.0.1/vunglepub.embeddedframework",
 				);
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -1806,6 +1820,13 @@
 		CDF389E91A51CEC800BDEB4D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"../../3rdparty/MobileAppTracking-ios-2.6/sdk-ios",
+					"../../3rdparty/facebook-ios-sdk-3.14.1",
+					../../3rdparty/TapjoySDK_iOS_v11.8.2/Libraries/Tapjoy.embeddedframework,
+					"../../3rdparty/vungle-2.0.1/vunglepub.embeddedframework",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.moaisdk.samples;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1814,6 +1835,13 @@
 		CDF389EA1A51CEC800BDEB4D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"../../3rdparty/MobileAppTracking-ios-2.6/sdk-ios",
+					"../../3rdparty/facebook-ios-sdk-3.14.1",
+					../../3rdparty/TapjoySDK_iOS_v11.8.2/Libraries/Tapjoy.embeddedframework,
+					"../../3rdparty/vungle-2.0.1/vunglepub.embeddedframework",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.moaisdk.samples;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
